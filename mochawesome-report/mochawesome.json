@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2022-08-02T16:24:23.749Z",
+    "end": "2022-08-02T16:25:29.628Z",
+    "duration": 65879,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cdf72774-9503-4a93-87b2-a9e3d9ce8b22",
+      "title": "",
+      "fullFile": "cypress/integration/NewProject/NewProject.js",
+      "file": "cypress/integration/NewProject/NewProject.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ea0f8b64-36cd-4233-bf44-a5da2fde3151",
+          "title": "It should add the New Project",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add the New Project",
+              "fullTitle": "It should add the New Project Add the New Project",
+              "timedOut": null,
+              "duration": 59159,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "newproject.addTheNewProject();\ncy.wait(5000);",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[type=\"button\"].mainbtn `, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `[type=\"button\"].mainbtn `, but never found it.\n    at NewProject.addTheNewProject (https://app-traxidy.thedemo.co/__cypress/tests?p=cypress/integration/NewProject/NewProject.js:159:8)\n    at Context.eval (https://app-traxidy.thedemo.co/__cypress/tests?p=cypress/integration/NewProject/NewProject.js:132:16)",
+                "diff": null
+              },
+              "uuid": "9403b985-15b2-4f81-92ee-629fb2643867",
+              "parentUUID": "ea0f8b64-36cd-4233-bf44-a5da2fde3151",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the New Project values",
+              "fullTitle": "It should add the New Project Verify the New Project values",
+              "timedOut": null,
+              "duration": 4616,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "newproject.verifyTheNewProjectValues();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#name`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#name`, but never found it.\n    at NewProject.verifyTheNewProjectValues (https://app-traxidy.thedemo.co/__cypress/tests?p=cypress/integration/NewProject/NewProject.js:193:21)\n    at Context.eval (https://app-traxidy.thedemo.co/__cypress/tests?p=cypress/integration/NewProject/NewProject.js:136:16)",
+                "diff": null
+              },
+              "uuid": "8e71bbf9-e453-4aef-bf40-b3afd4a13153",
+              "parentUUID": "ea0f8b64-36cd-4233-bf44-a5da2fde3151",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9403b985-15b2-4f81-92ee-629fb2643867",
+            "8e71bbf9-e453-4aef-bf40-b3afd4a13153"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 63775,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
