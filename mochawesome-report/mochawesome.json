@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-02T16:25:53.029Z",
-    "end": "2022-08-02T16:27:01.605Z",
-    "duration": 68576,
+    "start": "2022-08-02T17:06:14.089Z",
+    "end": "2022-08-02T17:06:29.772Z",
+    "duration": 15683,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "63388b3f-67ed-408e-bda1-a92a33bd3489",
+      "uuid": "1a2254b8-ba0d-45e7-ac70-ca27b417bbca",
       "title": "",
       "fullFile": "cypress/integration/SignIn/SignIn.js",
       "file": "cypress/integration/SignIn/SignIn.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a4ca6198-0c7a-443f-94a9-21bf3bcc23f0",
+          "uuid": "fa803452-af62-43ee-8682-9e8f73cace1f",
           "title": "Verify the Sign In page",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "SignIn With New User",
               "fullTitle": "Verify the Sign In page SignIn With New User",
               "timedOut": null,
-              "duration": 66252,
+              "duration": 12981,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('https://app-traxidy.thedemo.co/login/');\nsignInPage.signInWithNewUser();",
               "err": {},
-              "uuid": "2712dd2d-eb81-437b-ab56-f6f33239b924",
-              "parentUUID": "a4ca6198-0c7a-443f-94a9-21bf3bcc23f0",
+              "uuid": "43ce0995-a0fb-4535-be6b-eaa807a0bd21",
+              "parentUUID": "fa803452-af62-43ee-8682-9e8f73cace1f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2712dd2d-eb81-437b-ab56-f6f33239b924"
+            "43ce0995-a0fb-4535-be6b-eaa807a0bd21"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 66252,
+          "duration": 12981,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

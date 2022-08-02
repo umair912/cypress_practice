@@ -15,10 +15,10 @@ describe('It should add New Contact',function(){
 
   })
 
-it('Add the New Contact',function(){
+// it('Add the New Contact',function(){
 
-  contact.addTheNewContact();
+//   contact.addTheNewContact();
 
-})
+// })
 
 })
